@@ -9,6 +9,7 @@ var bala = new Phaser.Class({
             Phaser.GameObjects.Image.call(this, scene, 0, 0, 'bala');
 
             this.speed = Phaser.Math.GetSpeed(400, 1);
+            
         },
 
     fire: function (x, y) {
